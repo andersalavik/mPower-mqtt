@@ -3,3 +3,4 @@ settings.py
 .DS_Store
 .vscode
 *.pyc
+.devcontainer.json
