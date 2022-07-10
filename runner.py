@@ -8,7 +8,6 @@ import settings
 cookies = {'AIROS_SESSIONID': '14a4f5616e560ed4b439341b92ff05d5'}
 
 
-
 r = requests.post(settings.MPOWERHOST+'/login.cgi', data={'username': settings.MPOWERUSER, 'password': settings.MPOWERPASS}, cookies=cookies)
 client = mqtt.Client() 
 client.username_pw_set(settings.MQTTUSER, settings.MQTTPASS)
